@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, #42B378, #78FFB8);
+}
+
+main {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #91FFC6;
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
