@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <style>
+        h1#p{
+            border: 12px double #534d86;
+            padding: 10px;
+            border-image-source: url('borda.png') ;
+            border-image-slice: 27;
+            border-image-repeat: repeat;
+
+            border-image: url('borda.png') 39 repeat ;
+        }
+
+        h1#b{
+            border: 12px double #534d86;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="p">Testando Bordas Personalizadas</h1>
+    <h1 id="b">Testando Bordas Normais</h1>
+    <br>  <br>
+    <p>Qual é o mais bonito para você?</p>
+    <br>
+    <p>Eu <strong>(Luis Otavio Reis Clementino)</strong> gosto mais da borda normal.</p>
+</body>
+</html>
