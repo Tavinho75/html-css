@@ -5,7 +5,6 @@
 <a href="https://tavinho75.github.io/html-css/Ex003">Acesse O Exercício 3</a>
 <a href="https://tavinho75.github.io/html-css/Ex004">Acesse O Exercício 4</a>
 <a href="https://tavinho75.github.io/html-css/Ex005">Acesse O Exercício 5</a>
-<a href="https://tavinho75.github.io/html-css/Ex006">Acesse O Exercício 6</a>
 <a href="https://tavinho75.github.io/html-css/Ex007">Acesse O Exercício 7</a>
 <a href="https://tavinho75.github.io/html-css/Ex008">Acesse O Exercício 8</a>
 <a href="https://tavinho75.github.io/html-css/Ex008b">Acesse O Exercício 8b</a>
