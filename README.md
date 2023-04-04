@@ -1,6 +1,5 @@
 # html-css
  Curso de HTML e CSS
-
 <a href="https://tavinho75.github.io/html-css/Ex001">Acesse O Exercício 1</a>
 <a href="https://tavinho75.github.io/html-css/Ex002">Acesse O Exercício 2</a>
 <a href="https://tavinho75.github.io/html-css/Ex003">Acesse O Exercício 3</a>
