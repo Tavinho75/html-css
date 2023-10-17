@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2ecc71;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.content {
+    padding: 20px;
+    /* Ajuste de margem superior para evitar que o conteúdo seja sobreposto pelo cabeçalho fixo */
+    margin-top: 70px;
+}
+
+/* Estilos adicionais quando o cabeçalho é rolado */
+.header-scrolled {
+    background-color: transparent;
+    color: transparent;
+    transition-duration: 0.15s;
+}
