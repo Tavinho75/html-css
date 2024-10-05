@@ -51,12 +51,12 @@ nav > a {
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
+    transition: .4s
 }
 
 nav > a:hover {
     background-color: white;
     color: black;
-    transition-duration: .4s;
 }
 
 main {
