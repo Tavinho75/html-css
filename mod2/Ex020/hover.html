@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #6173ED;
+            color: #82d3ff;
+        }
+
+        div > P{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+        }
+
+        div:hover{
+            color: #4bffde;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo.</p>
+    <div>
+        Passe o mouse aqui.
+        <p><a href="https://www.cuponomia.com.br/desconto/madeira-madeira" target="_blank" rel="external">Cupom...</a></p>
+    </div>
+    <p>Fim do Exemplo</p>
+</body>
+</html>

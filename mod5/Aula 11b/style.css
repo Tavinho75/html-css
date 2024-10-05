@@ -1,0 +1,32 @@
+div.conteiner {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div {
+    background-color: rgb(67, 0, 0);
+    text-align: center;
+}
+
+div.item {
+    flex-basis: 100PX;
+}
+
+.cA {
+    background-color: rgb(255, 244, 127);
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.cB {
+    background-color: rgb(255, 182, 127);
+    flex-grow: 4;
+    flex-shrink: 1;
+}
+
+.cC {
+    background-color: rgb(176, 255, 127);
+    flex-grow: 0;
+    flex-shrink: 1;
+}

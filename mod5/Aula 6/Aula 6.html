@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../flexbox.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 6 - FlexBox</title>
+    <script src="https://kit.fontawesome.com/01fd4ea7f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="form">
+            <h1>Cadastro</h1>
+            <form action="login.php" method="post" autocomplete="on"></form>
+                <label for="inome">
+                    <i class="fa-solid fa-user"></i>
+                </label>
+                <input type="text" name="inome" id="inome">
+
+
+                <label for="ilogin">
+                    <i class="fa-solid fa-envelope"></i>
+                </label>
+                <input type="email" name="login" id="ilogin" placeholder="Seu E-Mail" required autocomplete="email" maxlength="30">
+
+
+                <label for="ipass">
+                    <i class="fa-solid fa-key"></i>
+                </label>
+                <input type="password" name="senha" id="isenha" placeholder="Sua senha" required  autocomplete="current-password" minlength="8" maxlength="20">
+            
+
+                <label for="itel">
+                    <i class="fa-solid fa-phone"></i>
+                </label>
+                <input type="tel" name="itel" id="itel">
+
+                <a href="esqueci.html" class="botao">
+                    Esqueci a senha
+                    <i class="fa-solid fa-envelope-open"></i>
+                </a>
+
+                <button type="submit" class="Ev">Enviar <i class="fa-solid  fa-paper-plane"></i></button>
+            </form>
+        </div>
+        </section>
+    </main>
+</body>
+</html>
+

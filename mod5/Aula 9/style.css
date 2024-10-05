@@ -1,0 +1,34 @@
+div.conteiner {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+div.item {
+    background-color: rgb(67, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    flex-flow: row wrap;
+}
+
+.i1 {
+    align-self: auto;
+}
+
+.i2 {
+    align-self: center;
+}
+
+.i3 {
+    align-self: flex-end;
+}
+
+.i4 {
+    align-self: flex-start;
+}
+
+.i5 {
+    align-self: stretch;
+}

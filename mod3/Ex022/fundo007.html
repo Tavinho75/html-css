@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização Na Vertical</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: #d1d1d1;
+        }
+        #container{
+            position: relative;
+            padding: 10px;
+            height: 94vh;
+            background-color: rgb(191, 123, 255);
+            background-image: url(Imagens/target001.png);
+            background-size: 100% 100%;
+        }
+        #conteudo{
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: rgb(124, 58, 230);
+            background-image: url(Imagens/target001.png);
+            background-size: 100% 100%;
+            
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+       <h1>Menu Responsivo</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
+        </menu>
+    </header><header>
+     
+
+    <main>
+        <article>
+            <h1>Testando Media Queries</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati corrupti perferendis eaque, autem tempora aspernatur, praesentium culpa ducimus magnam, itaque quos repellendus et pariatur aliquam quo quas delectus debitis! Vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nemo saepe ea nam impedit ad id doloremque voluptates nisi perspiciatis totam tempore atque facere dolor velit, pariatur eveniet nobis ipsam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, autem ullam. Debitis qui eos, dicta ex provident, exercitationem numquam fugit, eligendi officia ducimus dolor nobis sed iusto animi vitae similique?
+            </p>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati corrupti perferendis eaque, autem tempora aspernatur, praesentium culpa ducimus magnam, itaque quos repellendus et pariatur aliquam quo quas delectus debitis! Vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nemo saepe ea nam impedit ad id doloremque voluptates nisi perspiciatis totam tempore atque facere dolor velit, pariatur eveniet nobis ipsam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, autem ullam. Debitis qui eos, dicta ex provident, exercitationem numquam fugit, eligendi officia ducimus dolor nobis sed iusto animi vitae similique?
+            </p>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati corrupti perferendis eaque, autem tempora aspernatur, praesentium culpa ducimus magnam, itaque quos repellendus et pariatur aliquam quo quas delectus debitis! Vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nemo saepe ea nam impedit ad id doloremque voluptates nisi perspiciatis totam tempore atque facere dolor velit, pariatur eveniet nobis ipsam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, autem ullam. Debitis qui eos, dicta ex provident, exercitationem numquam fugit, eligendi officia ducimus dolor nobis sed iusto animi vitae similique?
+            </p>
+        
+        </article>
+    </main>
+
+    <footer>
+        Esse site foi criado pelo <a href="https://www.youtube.com/@CursoemVideo">Gustavo Guanabara</a>
+    </footer>
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

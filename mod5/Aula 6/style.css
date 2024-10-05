@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+main {
+    background-color: lightgreen;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: lightgoldenrodyellow;
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Ev {
+    width: 100px;
+}
+
+input {
+    display: inline-block;
+}
+
+span {
+    display: flex;
+}
+
+.botao {
+    text-decoration: none;
+    color: black;
+}
+/*
+            <input type="email" name="iemail" id="iemail">
+            <input type="password" name="ipass" id="ipass">
+            <input type="text" name="inome" id="inome">
+            <input type="tel" name="itel" id="itel">
+*/

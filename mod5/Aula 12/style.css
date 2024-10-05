@@ -1,0 +1,42 @@
+div.conteiner {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.item {
+    background-color: rgb(67, 0, 0);
+    text-align: center;
+    color: white;
+    border: solid 1px rgb(151, 255, 54);
+}
+
+.cA {
+    /*
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100PX;
+    */
+
+    flex: 1 0 100px;
+}
+
+.cB {
+    /*
+    flex-grow: 4;
+    flex-shrink: 1;
+    flex-basis: 100PX;
+    */
+
+    flex: 4 1 100px;
+}
+
+.cC {
+    /*
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 100PX;
+    */
+
+    flex: 0 1 100px;
+}

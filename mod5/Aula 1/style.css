@@ -1,0 +1,11 @@
+div.conteiner {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+}
+
+div.item {
+    background-color: rgb(67, 0, 0);
+    color: white;
+    text-align: center;
+    flex: auto;
+}

@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    background-color: rgb(167, 255, 226);
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+}

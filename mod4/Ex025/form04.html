@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+
+        input.botao {
+            background-color: lightslategrey;
+            color: white;
+            border: 1px solid black;
+        }
+
+        input.botao:hover {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            transition-duration: 0.25s;
+        }
+
+        fieldset {
+            border: 3px solid rgb(255, 255, 255);
+        }
+
+        input {
+            border: 1px solid rgb(158, 158, 255);
+        }
+
+        ::placeholder {
+            color: rgb(81, 81, 81);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required minlength="4" maxlength="30" size="30" placeholder="Nome Completo">
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required size="30" placeholder="email00@teste.com">
+            </p>
+            <p>
+                <label for="itel">Telefone:  </label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxxx-xxxx"  size="15">
+            </p>
+        </fieldset>
+            <!-- Estudar mais sobre RegEx -->
+            <p>
+                <input type="submit" value="Enviar" class="botao">
+                <input type="reset" value="Limpar" class="botao">
+            </p>
+    </form>
+</body>
+</html>

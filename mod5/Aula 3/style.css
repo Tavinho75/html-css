@@ -1,0 +1,17 @@
+div.conteiner {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.item {
+    background-color: rgb(67, 0, 0);
+    color: white;
+    text-align: center;
+    flex: auto;
+}
+i.fa-solid {
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+}

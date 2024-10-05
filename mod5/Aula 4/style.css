@@ -1,0 +1,84 @@
+p.separador {
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+div.item {
+    background-color: #f67f00;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: solid black 1px;
+}
+
+div.conteiner {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+div.conteiner2 {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+div.conteiner3 {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+div.conteiner4 {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+div.conteiner5 {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+div.conteiner6 {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    height: 150px;
+}
+
+div.conteiner7 {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    height: 150px;
+}
+
+div.conteiner8 {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    height: 150px;
+}
+
+div.conteiner9 {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 150px;
+}

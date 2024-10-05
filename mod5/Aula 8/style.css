@@ -1,0 +1,40 @@
+div.conteiner {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+}
+
+div.item {
+    background-color: rgb(67, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    flex-flow: row wrap;
+}
+
+.i1 {
+    order: 0;
+}
+
+.i2 {
+    order: 7;
+}
+
+.i3 {
+    order: 5;
+}
+
+.i4 {
+    order: -4;
+}
+
+.i5 {
+    order: -8;
+}
+
+.i6 {
+    order: 8;
+}
+
+.i7 {
+    order: 1;
+}

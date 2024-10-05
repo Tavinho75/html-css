@@ -1,0 +1,15 @@
+div.conteiner {
+    background-color: rgb(101, 255, 255);
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    height: 500px;
+}
+
+div.item {
+    background-color: rgb(67, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid white;
+}
