@@ -50,7 +50,9 @@ nav > a {
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
+
     transition-duration: .4s;
+    transition: .4s
 }
 
 nav > a:hover {
