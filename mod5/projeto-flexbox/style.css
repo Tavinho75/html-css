@@ -32,12 +32,11 @@ header > h1 {
 header > img {
     width: 130px;
     padding: 5px;
-    border:  2px solid rgb(255, 255, 255);
     flex: 0 0 140px;
+    
 }
 
 nav {
-    border: 2px solid rgb(0, 0, 0);
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -51,12 +50,12 @@ nav > a {
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
+    transition-duration: .4s;
 }
 
 nav > a:hover {
     background-color: white;
     color: black;
-    transition-duration: .4s;
 }
 
 main {
