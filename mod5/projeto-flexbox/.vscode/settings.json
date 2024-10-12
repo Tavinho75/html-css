@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 15,
+    "editor.renderWhitespace": "selection",
+    "editor.cursorStyle": "line",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.wordWrap": "on"
+}
